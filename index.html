@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Alexander Website</title>
+    <link rel="shortcut icon" href="img/homeBg.png">
+		<!-- font awesome link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+	<!-- bootstrap main link -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- bootstrap plugins link  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- swiper js link -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+	<!-- css custom file********** -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<!-- start navigation -->
+<header id="header">
+	<div class="container">
+		<nav class="navbar navbar-dark navbar-expand-lg">
+			<a href="index.html" class="navbar-brand"><i class="fa fa-laptop"></i> alexander</a>
+			<button type="button" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" style="background-color: var(--main-violet);">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link active">home</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">about</a>
+					</li>
+					<li class="nav-item">
+						<a href="service.html" class="nav-link">services</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">pages</a>
+							<div class="dropdown-menu">
+								<a href="portfolio.html" class="dropdown-item">portfolio</a>
+								<a href="blog-post.html" class="dropdown-item">blog post</a>
+							</div>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">contact</a>
+					</li>
+				</ul>
+			</div>		
+			<span class="fas fa-moon"></span>
+		</nav>
+	</div>
+</header>
+<!-- /header -->
+<!-- end navigation -->
+
+<!-- start home section -->
+<section class="home padding flex bg-light-custom" id="home">
+	<div class="container">	
+		<div class="row">
+			<div class="col-lg-6 col-12">
+				<div class="content">
+					<span class="sub-heading">HELLO</span>
+					<h1 class="light">i'm <span class="bold">alexander</span> <br> <span class="bold">a</span> <span class="light" id="typed"></span>
+					</h1>
+					<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ducimus illo. Odio nisi nemo fuga provident pariatur, est ratione temporibus voluptatibus animi velit!</p>
+					<div class="btn-group mt-3">
+						<a href="#" class="main-btn">hire me</a>
+						<a href="#" class="main-outline-btn">portfolio</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-12 mt-5 mt-sm-0">
+				<div class="img text-lg-center text-left">
+					<img src="img/homeBg.png" alt="myPhoto">					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- for typed -->
+<div id="typed-strings">
+	<span>web developer</span>
+	<span>ui/ux developer</span>
+	<span>freelancer</span>
+</div>
+<!-- scroll up btn -->
+<a href="#home" class="scroll-up fas fa-chevron-up"></a>
+<!-- end home section -->
+
+<!-- start about section -->
+<section class="about flex padding bg-white-custom">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-12">
+				<img src="img/myphoto(about).jpg" alt="myPhoto">
+			</div>
+			<div class="col-lg-8 col-12">
+				<div class="content">
+					<span class="sub-heading">WHO AM I?</span>
+					<h1 class="heading">I'm Alexander Smith, a visual UI/UX Designer and Web Developer</h1>
+					<p class="para">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat consequatur voluptatem nihil ad. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor ipsum non velit reprehenderit, molestias culpa!</p>
+					<a href="#" class="main-btn">download cv</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end about section -->
+
+<!-- start resume section -->
+<section class="resume padding flex bg-light-custom">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="content">
+					<span class="sub-heading">MY RESUME</span>
+					<h1 class="heading">i would love to make your ideals real</h1>
+					<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam rem magni earum molestiae veritatis saepe laborum quas fugiat expedita ullam Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					<a href="#" class="main-btn">download resume</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end resume section -->
+
+<!-- start services section -->
+<section class="service padding flex bg-white-custom">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 py-5">
+				<span class="sub-heading text-center d-block">SERVICES</span>
+				<h1 class="heading text-center">what i do for you</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="swiper service-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" data-swiper-autoplay="2000">
+						<div class="service-box">
+							<div class="service-box-header">
+								<span class="fas fa-laptop"></span>
+								<span class="num">01</span>
+							</div>
+							<a href="#" class="heading">web development</a>
+							<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore ex ullam quae hic minus voluptas quasi cum!</p>
+							<a href="#" class="read-more">read more</a>
+						</div>
+					</div>
+					<div class="swiper-slide" data-swiper-autoplay="2000">
+						<div class="service-box">
+							<div class="service-box-header">
+								<span class="fas fa-edit"></span>
+								<span class="num">02</span>
+							</div>
+							<a href="#" class="heading">ui/ux designer</a>
+							<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore ex ullam quae hic minus voluptas quasi cum!</p>
+							<a href="#" class="read-more">read more</a>
+						</div>
+					</div>
+					<div class="swiper-slide" data-swiper-autoplay="2000">
+						<div class="service-box">
+							<div class="service-box-header">
+								<span class="fas fa-keyboard"></span>
+								<span class="num">03</span>
+							</div>
+							<a href="#" class="heading">research and analysis</a>
+							<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore ex ullam quae hic minus voluptas quasi cum!</p>
+							<a href="#" class="read-more">read more</a>
+						</div>
+					</div>
+					<div class="swiper-slide" data-swiper-autoplay="2000">
+						<div class="service-box">
+							<div class="service-box-header">
+								<span class="fas fa-drafting-compass"></span>
+								<span class="num">04</span>
+							</div>
+							<a href="#" class="heading">graphic designer</a>
+							<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore ex ullam quae hic minus voluptas quasi cum!</p>
+							<a href="#" class="read-more">read more</a>
+						</div>
+					</div>
+					<div class="swiper-slide" data-swiper-autoplay="2000">
+						<div class="service-box">
+							<div class="service-box-header">
+								<span class="fas fa-laptop"></span>
+								<span class="num">05</span>
+							</div>
+							<a href="#" class="heading">web development</a>
+							<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore ex ullam quae hic minus voluptas quasi cum!</p>
+							<a href="#" class="read-more">read more</a>
+						</div>
+					</div>
+					<div class="swiper-slide" data-swiper-autoplay="2000">
+						<div class="service-box">
+							<div class="service-box-header">
+								<span class="fas fa-edit"></span>
+								<span class="num">06</span>
+							</div>
+							<a href="#" class="heading">ui/ux designer</a>
+							<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore ex ullam quae hic minus voluptas quasi cum!</p>
+							<a href="#" class="read-more">read more</a>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-12 text-center py-5 mt-3">
+				<a href="service.html" class="sub-heading">view all services <span class="fas fa-arrow-right"></span></a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end services section -->
+
+<!-- start counter section -->
+<section class="counter padding flex bg-light-custom">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+				<div class="box">
+					<span class="fas fa-laptop"></span>
+					<div class="counter-num heading" data-target="700">0</div>
+					<p class="para">completed projects</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+				<div class="box">
+					<span class="fas fa-hourglass-start"></span>
+					<div class="counter-num heading" data-target="120">0</div>
+					<p class="para">in processes</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+				<div class="box">
+					<span class="fas fa-gift"></span>
+					<div class="counter-num heading" data-target="130">0</div>
+					<p class="para">awards received</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+				<div class="box">
+					<span class="far fa-smile"></span>
+					<div class="counter-num heading" data-target="1050">0</div>
+					<p class="para">happy clients</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end counter section -->
+
+<!-- start testimonial section  -->
+<section class="testimonial padding flex bg-white-custom">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<span class="sub-heading text-center d-block">TESTIMONIALS</span>
+				<h1 class="heading text-center">what our clients think about me</h1>
+			</div>
+			<div class="swiper testimonial-swiper mt-5 pt-3">
+				<div class="swiper-wrapper">
+				  <div class="swiper-slide" data-swiper-autoplay="2000">
+						<div class="testimonial-box bg-light-custom">
+							<span class="fas fa-quote-left"></span>
+							<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dignissimos libero cum eaque ratione sit, laborum distinctio suscipit saepe quaerat possimus sunt similique.</p>
+							<div class="user-profile">
+								<div class="img">
+									<img src="img/team1.jpg" alt="reviewImg">
+								</div>
+								<div class="user-details">
+									<div class="name">laura gill</div>
+									<div class="place">seattle, washington</div>
+								</div>
+							</div>
+						</div> 
+				  </div>
+				  <div class="swiper-slide" data-swiper-autoplay="2000">
+					<div class="testimonial-box bg-light-custom">
+						<span class="fas fa-quote-left"></span>
+						<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dignissimos libero cum eaque ratione sit, laborum distinctio suscipit saepe quaerat possimus sunt similique.</p>
+						<div class="user-profile">
+							<div class="img">
+								<img src="img/team2.jpg" alt="reviewImg">
+							</div>
+							<div class="user-details">
+								<div class="name">laura gill</div>
+								<div class="place">seattle, washington</div>
+							</div>
+						</div>
+					</div> 
+				  </div>
+				  <div class="swiper-slide" data-swiper-autoplay="2000">
+					<div class="testimonial-box bg-light-custom">
+						<span class="fas fa-quote-left"></span>
+						<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dignissimos libero cum eaque ratione sit, laborum distinctio suscipit saepe quaerat possimus sunt similique.</p>
+						<div class="user-profile">
+							<div class="img">
+								<img src="img/team3.jpg" alt="reviewImg">
+							</div>
+							<div class="user-details">
+								<div class="name">julia sakura</div>
+								<div class="place">seattle, washington</div>
+							</div>
+						</div>
+					</div> 
+				  </div>
+				  <div class="swiper-slide" data-swiper-autoplay="2000">
+					<div class="testimonial-box bg-light-custom">
+						<span class="fas fa-quote-left"></span>
+						<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dignissimos libero cum eaque ratione sit, laborum distinctio suscipit saepe quaerat possimus sunt similique.</p>
+						<div class="user-profile">
+							<div class="img">
+								<img src="img/team4.jpg" alt="reviewImg">
+							</div>
+							<div class="user-details">
+								<div class="name">roy linderson</div>
+								<div class="place">seattle, washington</div>
+							</div>
+						</div>
+					</div> 
+				  </div>
+				</div>
+			  </div>
+		</div>
+	</div>
+</section>
+<!-- end testimonial section  -->
+
+<!-- start hire-me section -->
+<section class="hire-me padding flex bg-light-custom">
+	<div class="container">
+		<div class="row flex">
+			<div class=" col-lg-10 col-12 text-center">
+				<h1 class="heading">i can give your business a new cretive start right away! hire me for your awesome project</h1>
+				<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem ad quas enim minus officia minima. Id corporis adipisci, laborum optio earum blanditiis repellendus aliquid.</p>
+				<div class="img">
+					<img src="img/video-bg.jpg" alt="videoBg">
+					<span class="fas fa-play"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="video-container">
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Y7vmGAaBojM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<span class="fas fa-times"></span>
+		</div>
+	</div>
+</section>
+<!-- end hire-me section -->
+
+<!-- start get-in-touch section -->
+<section class="get-in-touch padding bg-white-custom flex">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<span class="sub-heading">GET IN TOUCH</span>
+				<h1 class="heading py-lg-4 py-md-3 py-2">let's make a project! hire me</h1>
+				<div class="btns">
+					<a href="#" class="main-btn">hire me</a>
+					<a href="#" class="main-outline-btn">get in touch</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--  end get-in-touch section-->
+
+<!-- start footer section  -->
+<footer class="footer padding bg-white-custom">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-12 text-lg-left text-center">
+				<p class="para">© 2021 Alexander. All Rights Reserved | Theme by  <a href="#">devangXTech.</a> </p>
+			</div>
+			<div class="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center align-items-center">
+				<div class="social-media-icons d-flex">
+					<a href="#" class="fab fa-facebook-f"></a>
+					<a href="#" class="fab fa-instagram"></a>
+					<a href="#" class="fab fa-linkedin"></a>
+					<a href="#" class="fab fa-twitter"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- end footer section  -->
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

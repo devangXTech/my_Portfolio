@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Alexander Website</title>
+    <link rel="shortcut icon" href="img/homeBg.png">
+
+		<!-- font awesome link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+	<!-- bootstrap main link -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- bootstrap plugins link  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- swiper js link -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+	<!-- css custom file********** -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<!-- start navigation -->
+<header id="header">
+	<div class="container">
+		<nav class="navbar navbar-dark navbar-expand-lg">
+			<a href="index.html" class="navbar-brand"><i class="fa fa-laptop"></i> alexander</a>
+			<button type="button" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" style="background-color: var(--main-violet);">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">home</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">about</a>
+					</li>
+					<li class="nav-item">
+						<a href="service.html" class="nav-link">services</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">pages</a>
+							<div class="dropdown-menu">
+								<a href="portfolio.html" class="dropdown-item">portfolio</a>
+								<a href="blog-post.html" class="dropdown-item active">blog post</a>
+							</div>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">contact</a>
+					</li>
+				</ul>
+			</div>		
+			<span class="fas fa-moon"></span>
+		</nav>
+	</div>
+</header>
+<!-- /header -->
+<!-- end navigation -->
+
+<!-- start breadcrumb section  -->
+<section class="breadcrumb-sec padding bg-light-custom" id="blog-post">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1 class="heading">latest blog posts</h1>
+            </div>
+            <div class="col-12">
+                <p class="para"><a href="index.html">home</a> <span class="fas fa-angle-double-right"></span> blog post </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end breadcrumb section  -->
+
+<!-- start blog-post  -->
+<section class="blog-post padding flex bg-white-custom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12 d-flex flex-column">
+                <div class="img">
+                    <img src="img/blog1.jpg" alt="blogImg" class="img-fluid">
+                    <div class="img-content">
+                        <p class="para">FEBRUARY 3, 2021. <a href="#">- by devangXTech</a></p>
+                        <a href="web-design.html" class="blog-post-name">hello world!</a>
+                        <a href="web-design.html" class="link">read more</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="img/blog3.jpg" alt="blogImg" class="img-fluid">
+                    <div class="img-content">
+                        <p class="para">FEBRUARY 3, 2021. <a href="#">- by devangXTech</a></p>
+                        <a href="web-design.html" class="blog-post-name">the big city life and opportunites for creative minds</a>
+                        <a href="web-design.html" class="link">read more</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="img/blog5.jpg" alt="blogImg" class="img-fluid">
+                    <div class="img-content">
+                        <p class="para">FEBRUARY 3, 2021. <a href="#">- by devangXTech</a></p>
+                        <a href="web-design.html" class="blog-post-name">how compaign funds are released</a>
+                        <a href="web-design.html" class="link">read more</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="img/blog4.jpg" alt="blogImg" class="img-fluid">
+                    <div class="img-content">
+                        <p class="para">FEBRUARY 3, 2021. <a href="#">- by devangXTech</a></p>
+                        <a href="web-design.html" class="blog-post-name">about motivation</a>
+                        <a href="web-design.html" class="link">read more</a>
+                    </div>
+                </div>
+                <hr  class="my-5" style="background-color: var(--border-color);">
+                <ul class="pagination">
+                    <li class="page-item active">
+                        <a href="blog-post.html" class="page-link">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="blog-post-2.html" class="page-link">2</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-12">
+                <form class="mt-lg-4 mt-5 pt-lg-4 pt-5">
+                    <div class="form-inline d-flex">
+                        <input type="text" class="form-control-lg border" placeholder="search..">
+                        <a href="#" class="main-btn">search</a>
+                    </div>
+                </form>
+                <div class="recent recent-posts">
+                    <h4 class="heading">recent posts</h4>
+                    <a href="web-design.html" class="blog-post-name">hello world!</a>
+                    <a href="web-design.html" class="blog-post-name">The big city life and opportunities for creative minds</a>
+                    <a href="web-design.html" class="blog-post-name">How Campaign funds are released</a>
+                    <a href="web-design.html" class="blog-post-name">About Motivation</a>
+                    <a href="web-design.html" class="blog-post-name">How to create your Portfolio website</a>
+                </div>
+                <div class="recent recent-comments">
+                    <h4 class="heading">recent comments</h4>
+                    <p><a href="#">a wordpress commentor</a> <span>on</span> <a href="#">hello world!</a></p>
+                    <p><a href="#">a wordpress commentor</a> <span>on</span> <a href="#">hello world!</a></p>
+                </div>
+                <div class="recent archives">
+                    <h4 class="heading">archives</h4>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> february 2021</a>
+                </div>
+                <div class="recent category">
+                    <h4 class="heading">category</h4>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> creative</a>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> design</a>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> travel</a>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> web design</a>
+                </div>
+                <div class="recent meta">
+                    <h4 class="heading">meta</h4>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> log in</a>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> entries feed</a>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> comments feed</a>
+                    <a href="#" class="blog-post-link"><span class="fas fa-chevron-right"></span> wordpress.org</a>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+<!-- end blog-post  -->
+
+    <!-- scroll up btn -->
+    <a href="#blog-post" class="scroll-up fas fa-chevron-up"></a>
+    <!-- end home section -->
+
+
+<!-- start footer section  -->
+<footer class="footer padding bg-white-custom">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-12 text-lg-left text-center">
+				<p class="para">© 2021 Alexander. All Rights Reserved | Theme by  <a href="#">devangXTech.</a> </p>
+			</div>
+			<div class="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center align-items-center">
+				<div class="social-media-icons d-flex">
+					<a href="#" class="fab fa-facebook-f"></a>
+					<a href="#" class="fab fa-instagram"></a>
+					<a href="#" class="fab fa-linkedin"></a>
+					<a href="#" class="fab fa-twitter"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- end footer section  -->
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
